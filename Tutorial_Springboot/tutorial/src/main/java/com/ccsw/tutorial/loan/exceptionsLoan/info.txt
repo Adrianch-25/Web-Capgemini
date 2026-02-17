@@ -1,0 +1,2 @@
+Los mensajes de error de las excepciones los pongo en español porque en el front
+los tengo vinculados directamente a los mensajes de error en el display

@@ -1,0 +1,23 @@
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { GameItemComponent } from './game-item';
+
+describe('GameItem', () => {
+  let component: GameItemComponent;
+  let fixture: ComponentFixture<GameItemComponent>;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      imports: [GameItemComponent]
+    })
+    .compileComponents();
+
+    fixture = TestBed.createComponent(GameItemComponent);
+    component = fixture.componentInstance;
+    await fixture.whenStable();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
